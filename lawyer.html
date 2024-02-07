@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lawyer Portfolio</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(20, 6, 6);
+            color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 40px;
+            background-color: rgb(117, 90, 90);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(124, 124, 153);
+        }
+        main hr{
+            border: 0;
+            background: rgb(177, 95, 95);
+            height: 1.2px;
+            margin: 120px 84px;
+        }
+        .left{
+            font-size: 1rem;
+        }
+        .one{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .one >div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 1.5rem;
+            
+        }
+        .leftsection .button{
+            padding: 50px 0;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background: black;
+            color: white;
+            border: 2px whitesmoke;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .purpel{
+            color: rgb(187, 48, 71);
+        }
+        .grey{
+            color: grey;
+        }
+        .second{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .second h1{
+            font-size: 1.6rem;
+        }
+        .second .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+        footer{
+            background-color: rgb(22, 20, 20);
+            height: 230px;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer >div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+       
+    </style>
+
+    <header>
+        <nav>
+            <div class="left">Alex Martine</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="one">
+            <div class="leftsection">
+                Hi, This is <span class="purpel">Alex Martine!!</span>
+                <div>Senior Associate Attorney</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+            
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <br>
+
+            <div>9years honing their legal skills and building a reputation as a tenacious advocate for their clients. Throughout their career, they have successfully represented individuals, businesses, and organizations in a wide range of legal matters, from complex civil litigation to high-stakes criminal defense cases. Lead attorney on a wide range of civil litigation cases, including contract disputes, employment law matters, and personal injury claims.
+                <br>With a reputation for excellence, integrity, and client-focused representation, Alex is ready to assist you with your legal needs. Contact him today to schedule a consultation and take the first step towards achieving a favorable outcome in your case.
+            </div>
+
+        </section>
+        
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Alex Martin Protfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            AlexMrtineP @ All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['I am a dedicated and experienced attorney committed to providing exceptional legal services.'],
+          typeSpeed: 40,
+        });
+      </script>
+    
+</body>
+</html>
